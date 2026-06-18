@@ -1,0 +1,834 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5001
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798
+ * Detected change in 'C:\\Users\\Akhil Raja\\Downloads\\nepal-thrift1-main\\scripts\\e2e_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798
+ * Detected change in 'C:\\Users\\Akhil Raja\\Downloads\\nepal-thrift1-main\\scripts\\e2e_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798
+ * Detected change in 'C:\\Users\\Akhil Raja\\Downloads\\nepal-thrift1-main\\scripts\\e2e_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798
+127.0.0.1 - - [18/Jun/2026 11:09:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:09:34] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:09:35] "GET /static/css/retro-theme.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:09:35] "GET /static/js/landing_auth.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:09:37] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Jun/2026 11:09:46] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:09:46] "GET /static/uploads/default.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [18/Jun/2026 11:09:46] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:09:46] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:09:46] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:09:46] "GET /static/js/ai_mirror.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:09:47] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:09:47] "GET /static/uploads/models/female_base.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:09:47] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:10:10] "GET /static/uploads/default.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [18/Jun/2026 11:10:17] "GET /static/uploads/models/male_base.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:10:26] "POST /api/cart/add HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:10:33] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:12:32] "GET /api/v1/products?category=Tshirt&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:33] "GET /api/v1/products?category=Pant&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:34] "GET /api/v1/products?category=Dress&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:35] "GET /api/v1/products?category=Jacket&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:35] "GET /static/uploads/default.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:35] "GET /api/v1/products?category=Hoodie&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:36] "GET /api/v1/products?category=Shoes&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:37] "GET /api/v1/products?category=Pant&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:38] "GET /api/v1/products?category=Dress&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:39] "GET /api/v1/products?category=Jacket&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:43] "GET /api/v1/products?per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:12:49] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:12:56] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:13:48] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:13:48] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:48] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:48] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:13:48] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:48] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:48] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:13:48] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:13:48] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:54] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:13:54] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:54] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:54] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:54] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:54] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:13:54] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:13:54] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:13:54] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:14:12] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:14:15] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:14:19] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:14:39] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:15:10] "POST /api/outfit/suggest HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:15:11] "POST /api/outfit/suggest HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:15:16] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:15:23] "POST /api/ai/tryon/feedback HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:16:12] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:16:12] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:12] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:12] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:12] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:12] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:12] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:16:12] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:16:12] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:15] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:16:15] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:15] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:15] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:15] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:15] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:15] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:16:15] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:16:15] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:16:47] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:16:47] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:02] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:02] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:02] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:02] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:02] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:02] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:02] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:02] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:03] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:12] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:27] "GET /size-chart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:27] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:27] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:30] "GET /mirror HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:30] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:30] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:30] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:30] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:30] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:30] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:30] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:30] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:44] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:44] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:44] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:44] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:44] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:44] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:44] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:17:44] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:44] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:17:59] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:18:03] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:19:13] "GET /admin/login HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:19:25] "POST /admin/login HTTP/1.1" 302 -
+127.0.0.1 - - [18/Jun/2026 11:19:26] "GET /admin HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:19:26] "GET /static/css/admin-pro.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:19:26] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:19:26] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:19:41] "GET /edit-product/3 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:19:41] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:20:53] "POST /update-product/3 HTTP/1.1" 422 -
+127.0.0.1 - - [18/Jun/2026 11:21:52] "POST /update-product/3 HTTP/1.1" 422 -
+127.0.0.1 - - [18/Jun/2026 11:21:57] "POST /update-product/3 HTTP/1.1" 422 -
+127.0.0.1 - - [18/Jun/2026 11:22:07] "POST /update-product/3 HTTP/1.1" 302 -
+127.0.0.1 - - [18/Jun/2026 11:22:07] "GET /admin HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:22:07] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:22:07] "GET /static/css/admin-pro.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:07] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:07] "GET /static/js/admin_dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:22:17] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:32] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:36] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:22:50] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "POST /api/auth/logout HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:23:18] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:25:06] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:25:37] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:25:45] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:25:46] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:25:49] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:25:50] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:25:51] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:25:52] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:25:56] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:26:15] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:26:16] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:26:17] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:26:18] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:26:18] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:26:18] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:26:18] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:41:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:41:59] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:41:59] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:41:59] "GET /static/js/landing_auth.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:42:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Jun/2026 11:42:12] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:42:12] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:42:12] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:42:12] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:42:12] "GET /static/uploads/default.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:42:13] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:42:13] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:42:13] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:42:13] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:42:13] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:42:59] "GET /api/v1/products?category=Tshirt&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:43:00] "GET /api/v1/products?category=Pant&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:43:01] "GET /api/v1/products?per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:43:02] "GET /api/v1/products?category=Jacket&per_page=100 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:43:11] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:44:24] "POST /api/cart/add HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:44:26] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:44:36] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:44:42] "POST /api/ai/tryon/feedback HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:45:10] "POST /api/auth/signup HTTP/1.1" 400 -
+127.0.0.1 - - [18/Jun/2026 11:45:18] "POST /api/auth/signup HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:45:18] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:15] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:15] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:15] "GET /static/js/landing_auth.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:23] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:23] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:23] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:23] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:23] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:23] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:24] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:24] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:24] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:24] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:41] "POST /api/cart/add HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:44] "GET /checkout HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:44] "GET /static/js/checkout_page.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:44] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:44] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:46:45] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:52] "POST /api/checkout HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:52] "POST /api/v1/payments/initiate HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:46:58] "POST /api/v1/payments/verify HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:05] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:05] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:06] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:06] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:06] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:06] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:06] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:06] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:06] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:06] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:13] "POST /api/cart/remove HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "POST /api/auth/logout HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:22] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:26] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:30] "GET /size-chart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:30] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:30] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:31] "GET /shop HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:32] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:32] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:32] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:32] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:32] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:32] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:49:32] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:32] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:49:32] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:54:20] "GET /admin/login HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:54:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Jun/2026 11:54:44] "POST /admin/login HTTP/1.1" 302 -
+127.0.0.1 - - [18/Jun/2026 11:54:45] "GET /admin HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:54:45] "GET /static/css/admin-pro.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:54:45] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:54:45] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:54:45] "GET /static/js/admin_dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:04] "GET /edit-product/3 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:55:04] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:13] "POST /update-product/3 HTTP/1.1" 302 -
+127.0.0.1 - - [18/Jun/2026 11:55:13] "GET /admin HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:55:13] "GET /static/css/admin-pro.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:13] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:13] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:13] "GET /static/js/admin_dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:29] "GET /admin/logout HTTP/1.1" 302 -
+127.0.0.1 - - [18/Jun/2026 11:55:29] "GET /admin/login HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:55:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:55:44] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:44] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:44] "GET /static/js/landing_auth.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:51] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:55:51] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:51] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:51] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:51] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:51] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:52] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:55:52] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:55:52] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:55:52] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:56:05] "POST /api/cart/add HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 11:56:12] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 11:56:20] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 11:56:25] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /static/uploads/default.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:00:04] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:00:08] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:00:36] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:00:43] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:03:14] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:03:18] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:03:28] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\free_virtual_tryon.py", line 108, in free_virtual_tryon
+    print(f"  \u2192 Mannequin size: {mannequin.size}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+127.0.0.1 - - [18/Jun/2026 12:03:49] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:09:06] "GET /admin/login HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:09:30] "POST /admin/login HTTP/1.1" 302 -
+127.0.0.1 - - [18/Jun/2026 12:09:30] "GET /admin HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:09:30] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:09:30] "GET /static/css/admin-pro.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:09:30] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:09:31] "GET /static/js/admin_dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:25] "GET /edit-product/3 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:11:25] "GET /static/uploads/33e79e42ede1405e81584a81994fbc52.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:46] "POST /update-product/3 HTTP/1.1" 302 -
+127.0.0.1 - - [18/Jun/2026 12:11:46] "GET /admin HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:11:46] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:11:46] "GET /static/css/admin-pro.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:46] "GET /static/js/admin_dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:46] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:53] "GET /admin/logout HTTP/1.1" 302 -
+127.0.0.1 - - [18/Jun/2026 12:11:53] "GET /admin/login HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:11:56] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:11:56] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:56] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:56] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:11:56] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:56] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:56] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:56] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:11:56] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:11:57] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:12:03] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:15:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:15:54] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:15:54] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:15:54] "GET /static/js/landing_auth.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:15:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:15:57] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:15:57] "GET /static/js/landing_auth.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:15:57] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:16:05] "GET /shop?username=dd HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:16:05] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:16:05] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:16:05] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:16:05] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:16:05] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:16:05] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:16:06] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:16:06] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:16:06] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:16:18] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:31:47] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:31:47] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:31:47] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:31:48] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:31:48] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:31:48] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:31:48] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:31:48] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:31:48] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:31:48] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /shop?username=dinesh HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:32:42] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:32:45] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:32:47] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+ * Detected change in 'C:\\Users\\Akhil Raja\\Downloads\\nepal-thrift1-main\\services\\gemini_service.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798
+127.0.0.1 - - [18/Jun/2026 12:37:01] "GET /shop?username=dinesh HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 809, in handle_user_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\core\exceptions.py", line 103, in handle_unexpected_error
+    raise err
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\api\v1\routes\page_routes.py", line 37, in shop
+    session["username"] = username
+    ~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\sessions.py", line 90, in _fail
+    raise RuntimeError(
+    ^
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+127.0.0.1 - - [18/Jun/2026 12:37:02] "GET /shop?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:37:02] "GET /shop?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:37:02] "GET /shop?__debugger__=yes&cmd=resource&f=console.png&s=s6WLJKz14WKONJw6dz5W HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:37:02] "GET /shop?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:37:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:37:14] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:37:14] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:37:14] "GET /static/js/landing_auth.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:37:25] "GET /shop?username=ddsds HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 809, in handle_user_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\core\exceptions.py", line 103, in handle_unexpected_error
+    raise err
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\api\v1\routes\page_routes.py", line 37, in shop
+    session["username"] = username
+    ~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\sessions.py", line 90, in _fail
+    raise RuntimeError(
+    ^
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+127.0.0.1 - - [18/Jun/2026 12:37:26] "GET /shop?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:37:26] "GET /shop?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:37:26] "GET /shop?__debugger__=yes&cmd=resource&f=console.png&s=s6WLJKz14WKONJw6dz5W HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:38:06] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:06] "GET /static/js/landing_auth.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:06] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:38:14] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:14] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:14] "GET /static/js/landing_auth.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:20] "GET /shop?username=dd HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 809, in handle_user_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\core\exceptions.py", line 103, in handle_unexpected_error
+    raise err
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\api\v1\routes\page_routes.py", line 37, in shop
+    session["username"] = username
+    ~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\sessions.py", line 90, in _fail
+    raise RuntimeError(
+    ^
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+127.0.0.1 - - [18/Jun/2026 12:38:20] "GET /shop?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:20] "GET /shop?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:20] "GET /shop?__debugger__=yes&cmd=resource&f=console.png&s=s6WLJKz14WKONJw6dz5W HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:22] "GET /shop?username=dd HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 809, in handle_user_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\core\exceptions.py", line 103, in handle_unexpected_error
+    raise err
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\api\v1\routes\page_routes.py", line 37, in shop
+    session["username"] = username
+    ~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\sessions.py", line 90, in _fail
+    raise RuntimeError(
+    ^
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+127.0.0.1 - - [18/Jun/2026 12:38:22] "GET /shop?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:22] "GET /shop?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:22] "GET /shop?__debugger__=yes&cmd=resource&f=console.png&s=s6WLJKz14WKONJw6dz5W HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:23] "GET /shop?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:30] "GET /shop?username=dd HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 809, in handle_user_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\core\exceptions.py", line 103, in handle_unexpected_error
+    raise err
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\api\v1\routes\page_routes.py", line 37, in shop
+    session["username"] = username
+    ~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\flask\sessions.py", line 90, in _fail
+    raise RuntimeError(
+    ^
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+127.0.0.1 - - [18/Jun/2026 12:38:30] "GET /shop?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:30] "GET /shop?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:30] "GET /shop?__debugger__=yes&cmd=resource&f=console.png&s=s6WLJKz14WKONJw6dz5W HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:38:31] "GET /shop?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in 'C:\\Users\\Akhil Raja\\Downloads\\nepal-thrift1-main\\config\\settings.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798
+127.0.0.1 - - [18/Jun/2026 12:40:47] "GET /shop?username=dd HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:40:47] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:40:47] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:40:48] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:40:48] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:40:48] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:40:48] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:40:48] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:40:48] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:40:48] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:40:58] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+ * Detected change in 'C:\\Users\\Akhil Raja\\Downloads\\nepal-thrift1-main\\services\\free_virtual_tryon.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798
+ * Detected change in 'C:\\Users\\Akhil Raja\\Downloads\\nepal-thrift1-main\\config\\settings.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798
+ * Detected change in 'C:\\Users\\Akhil Raja\\Downloads\\nepal-thrift1-main\\config\\settings.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798
+127.0.0.1 - - [18/Jun/2026 12:51:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:51:38] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:38] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:38] "GET /static/js/landing_auth.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:46] "GET /shop?username=dd HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:51:46] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:46] "GET /static/css/retro-theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:46] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:46] "GET /static/uploads/default.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:46] "GET /static/js/ai_mirror.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:46] "GET /static/js/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:46] "GET /api/auth/status HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:51:46] "GET /api/cart HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:51:47] "GET /static/uploads/models/female_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:51:53] "GET /static/uploads/fa767c6bb4d14d5995fa79bed4e07915.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:52:19] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jun/2026 12:53:36] "GET /static/uploads/models/male_base.png HTTP/1.1" 304 -
+127.0.0.1 - - [18/Jun/2026 12:53:50] "POST /api/ai/tryon/compose HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\Akhil Raja\\Downloads\\nepal-thrift1-main\\app_services\\tryon_service.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 370-068-798

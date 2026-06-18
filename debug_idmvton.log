@@ -1,0 +1,156 @@
+[12:52:11] ============================================================
+[12:52:11] IDM-VTON Function Called
+[12:52:11] API Key found: True
+[12:52:11] API Key prefix: r8_UJltFgxYj10u...
+[12:52:11] Mannequin: C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\static\uploads\models\female_base.png (exists: True)
+[12:52:11] Cloth: C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\static\uploads\fa767c6bb4d14d5995fa79bed4e07915.jpg (exists: True)
+[12:52:11] Category: upper_body
+[12:52:11] Replicate client created
+[12:52:11] Opening files...
+[12:52:11] Files opened, calling Replicate API...
+[12:52:11] Model: lucataco/kolors-virtual-try-on
+[12:52:19] ERROR: ReplicateError Details:
+status: 404
+detail: The requested resource could not be found.
+[12:52:19] Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\gemini_service.py", line 740, in replicate_idm_vton_tryon
+    output = client.run(
+        "lucataco/kolors-virtual-try-on",
+    ...<5 lines>...
+        }
+    )
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 175, in run
+    return run(self, ref, input, use_file_output=use_file_output, **params)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\run.py", line 50, in run
+    prediction = client.models.predictions.create(
+        model=(owner, name), input=input or {}, **params
+    )
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\model.py", line 405, in create
+    resp = self._client._request("POST", path, json=body, **extras)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 89, in _request
+    _raise_for_status(resp)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 407, in _raise_for_status
+    raise ReplicateError.from_response(resp)
+replicate.exceptions.ReplicateError: ReplicateError Details:
+status: 404
+detail: The requested resource could not be found.
+
+[12:53:44] ============================================================
+[12:53:44] IDM-VTON Function Called
+[12:53:44] API Key found: True
+[12:53:44] API Key prefix: r8_UJltFgxYj10u...
+[12:53:44] Mannequin: C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\static\uploads\models\male_base.png (exists: True)
+[12:53:44] Cloth: C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\static\uploads\fa767c6bb4d14d5995fa79bed4e07915.jpg (exists: True)
+[12:53:44] Category: upper_body
+[12:53:44] Replicate client created
+[12:53:44] Opening files...
+[12:53:44] Files opened, calling Replicate API...
+[12:53:44] Model: lucataco/kolors-virtual-try-on
+[12:53:49] ERROR: ReplicateError Details:
+status: 404
+detail: The requested resource could not be found.
+[12:53:49] Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\gemini_service.py", line 740, in replicate_idm_vton_tryon
+    output = client.run(
+        "lucataco/kolors-virtual-try-on",
+    ...<5 lines>...
+        }
+    )
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 175, in run
+    return run(self, ref, input, use_file_output=use_file_output, **params)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\run.py", line 50, in run
+    prediction = client.models.predictions.create(
+        model=(owner, name), input=input or {}, **params
+    )
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\model.py", line 405, in create
+    resp = self._client._request("POST", path, json=body, **extras)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 89, in _request
+    _raise_for_status(resp)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 407, in _raise_for_status
+    raise ReplicateError.from_response(resp)
+replicate.exceptions.ReplicateError: ReplicateError Details:
+status: 404
+detail: The requested resource could not be found.
+
+[13:15:40] ============================================================
+[13:15:40] IDM-VTON Function Called
+[13:15:40] API Key found: True
+[13:15:40] API Key prefix: r8_UJltFgxYj10u...
+[13:15:40] Mannequin: C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\static\uploads\models\female_base.png (exists: True)
+[13:15:40] Cloth: C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\static\uploads\fa767c6bb4d14d5995fa79bed4e07915.jpg (exists: True)
+[13:15:40] Category: upper_body
+[13:15:40] Replicate client created
+[13:15:40] Opening files...
+[13:15:40] Files opened, calling Replicate API...
+[13:15:40] Model: lucataco/kolors-virtual-try-on
+[13:15:48] ERROR: ReplicateError Details:
+status: 404
+detail: The requested resource could not be found.
+[13:15:48] Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\gemini_service.py", line 753, in replicate_idm_vton_tryon
+    output = client.run(
+        "lucataco/kolors-virtual-try-on",
+    ...<5 lines>...
+        }
+    )
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 175, in run
+    return run(self, ref, input, use_file_output=use_file_output, **params)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\run.py", line 50, in run
+    prediction = client.models.predictions.create(
+        model=(owner, name), input=input or {}, **params
+    )
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\model.py", line 405, in create
+    resp = self._client._request("POST", path, json=body, **extras)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 89, in _request
+    _raise_for_status(resp)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 407, in _raise_for_status
+    raise ReplicateError.from_response(resp)
+replicate.exceptions.ReplicateError: ReplicateError Details:
+status: 404
+detail: The requested resource could not be found.
+
+[13:18:00] ============================================================
+[13:18:00] IDM-VTON Function Called
+[13:18:00] API Key found: True
+[13:18:00] API Key prefix: r8_UJltFgxYj10u...
+[13:18:00] Mannequin: C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\static\uploads\models\male_base.png (exists: True)
+[13:18:00] Cloth: C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\static\uploads\fa767c6bb4d14d5995fa79bed4e07915.jpg (exists: True)
+[13:18:00] Category: upper_body
+[13:18:00] Replicate client created
+[13:18:00] Opening files...
+[13:18:00] Files opened, calling Replicate API...
+[13:18:00] Model: lucataco/kolors-virtual-try-on
+[13:18:05] ERROR: ReplicateError Details:
+status: 404
+detail: The requested resource could not be found.
+[13:18:05] Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Akhil Raja\Downloads\nepal-thrift1-main\services\gemini_service.py", line 753, in replicate_idm_vton_tryon
+    output = client.run(
+        "lucataco/kolors-virtual-try-on",
+    ...<5 lines>...
+        }
+    )
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 175, in run
+    return run(self, ref, input, use_file_output=use_file_output, **params)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\run.py", line 50, in run
+    prediction = client.models.predictions.create(
+        model=(owner, name), input=input or {}, **params
+    )
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\model.py", line 405, in create
+    resp = self._client._request("POST", path, json=body, **extras)
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 89, in _request
+    _raise_for_status(resp)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Akhil Raja\AppData\Local\Programs\Python\Python314\Lib\site-packages\replicate\client.py", line 407, in _raise_for_status
+    raise ReplicateError.from_response(resp)
+replicate.exceptions.ReplicateError: ReplicateError Details:
+status: 404
+detail: The requested resource could not be found.
+
